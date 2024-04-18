@@ -1,2 +1,0 @@
-# TeslaGiveaway
- crptocurrency giveaways
