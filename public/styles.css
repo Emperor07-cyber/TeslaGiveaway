@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 8px 0;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right:120px;
+}
+
+.navbar {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  
+  border-color: #007bff;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  padding-top: 15px;
+  font-family: Ubuntu;
+  font-weight: 500;
+}
+.part{
+  background-color: #ff4000;
+  width: 200px;
+  margin-left: 200px;
+  border-radius: 14px;
+  color: #fff;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.join{
+  background-color: #ff4000;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 14px;
+  color: #fff;
+  border: none;
+  padding: 20px 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.row {
+  display: flex;
+}
+
+.col-70 {
+  width: 70%;
+  padding: 20px;
+}
+
+.col-30 {
+  width: 30%;
+  padding: 20px;
+}
+
+.rectangle {
+  background-color: #f89898b5;
+  padding: 1px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #ff2600;
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.circle i {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+.rectangle p{
+  margin-left: 12px;
+  font-weight: bold;
+  color: #ff2600;
+}
+h1{
+  font-size: 80px;
+  font-family: ubuntu;
+}
+.highlight{
+  color: red;
+}
+.hexagon-wrapper {
+  width: 350px; /* Adjust size as needed */
+  height: 450px; /* Adjust size as needed */
+  position: relative;
+  display: inline-block; /* Ensures that the hexagon has the correct shape */
+  border-radius: 30px;
+}
+
+.hexagon-outline {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border-radius: 300px; /* Adjust border radius to control the roundness of corners */
+  border: 3px solid rgb(255, 255, 255); /* Set the color of the outline */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hexagon-content img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+/* Continue with the rest of your CSS for the remaining content */
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 10px;
+  flex: 1;
+  text-align: center;
+  color: red;
+}
+
+.card {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.card img {
+
+  margin-bottom: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+/* Styling for rules and information section */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.rule {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.col-50{
+  width: 50%;
+  margin-left: 5px;
+}
+
+/* Styling for participate section */
+.participate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.participate-card {
+  flex: 0 0 calc(50% - 20px);
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius:10px;
+}
+.participate-card .content{
+  display: flex;
+}
+
+.participate-card img {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.participate-card button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.participate-card .hourglass {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.participate-card .text{
+  margin-left: 10px;
+  padding-top: 20px;
+  font-size: 17px;
+}
+
+
+/* Styling for participate section */
+/* Add your styles for participate section here */
+.rule {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.rule h3 {
+  margin-bottom: 10px;
+}
+
+.rule p {
+  line-height: 1.5;
+}
+h2{
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  background-color: #f70505;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 20px;
+}
+/* Add this CSS at the end of your existing styles */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .logo img {
+    margin-right: 0;
+  }
+
+  .navbar {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .navbar a {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .col-70,
+  .col-30 {
+    width: 100%;
+  }
+
+  .hexagon-wrapper {
+    width: 250px;
+    height: 300px;
+  }
+
+  .rule,
+  .participate-card {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    margin-right: 0;
+  }
+
+  .join {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  footer {
+    padding: 10px 0;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+}
+
+
+/* .participate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.participate-card {
+  flex: 0 0 calc(50% - 20px);
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.participate-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.participate-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.participate-card .hourglass {
+  font-size: 24px;
+  margin-right: 10px;
+} */
+

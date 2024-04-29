@@ -1,56 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React Webpage</title>
-  <link rel="stylesheet" href="style.css">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Giveaway</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-G8rJX83jLwVAJXZFL2o5iuem5qOcW2LGJB65BRFbCkyR+smZBS+p56R6prYyn8o3OgXe+Z4QBwLb7HBhuUSmOQ==" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-  <div class="container">
-  <!-- Navbar -->
-  <div class="navbar">
-    <div class="logo">Logo</div>
-    <div class="links">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-      <a href="#">Link 4</a>
-      <a href="#">Link 5</a>
-    </div>
-    <button>Button</button>
-  </div>
-
-  <!-- Main content -->
-  <div class="main-content">
-    <div class="row">
-    <!-- Left section -->
-    <div class="col-left">
-      <!-- Check sign -->
-      <!-- Rectangle container -->
-    <div class="text"><div class="circle">&#10003;</div>
-          Official Pass
-        </div>
-      <!-- Header -->
-      <div class="header">
-        BIGGEST CRYPTO GIVEAWAY OF <span class="highlight">$100,000,000</span>
-      </div>
-    </div>
-    <!-- Right section -->
-<div class="col-right">
-  <!-- Hexagon image container -->
-  <div class="hexagon-container">
-    <div class="hexagon"></div>
-    <img src="image.jpeg" alt="Hexagon Image">
-    <!-- Image -->
+    <script src="index.js"></script>
+    <div class="container">
     
-  </div>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="navbar">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <div class="menu">
+                    <a href="#">Giveaway</a>
+                    <a href="#">Participate</a>
+                    <a href="#">Info</a>
+                    <a href="#">Transaction</a>
+                    <a href="#">Instruction</a>
+                </div>
+                <button class="part">Participate &rarr;</button>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-70">
+                <div class="rectangle">
+                    <div class="circle">
+                        <i class="fas fa-check">&#10003;</i>
+                    </div>
+                    <p>Official Pass</p>
+                </div>
+                <h1>Biggest Crypto Giveaway Of <span class="highlight">$100,000,000</span> </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="join">Participate  &rarr;</button>
+            </div>
+            <div class="col-30">
+                <div class="hexagon-wrapper">
+                    <div class="hexagon-outline"></div>
+                    <div class="hexagon-content">
+                        <img src="img/image1.jpg" alt="Image 1">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="margin-bottom"></div>
+
+<center><h2>Instructions <span class="highlight">to</span> Participate</h2></center>
+
+<div class="row">
+    <div class="card">
+        <div class="card-image"><img style="width: 135px;"  src="img/wallet.png" alt=""></div>
+        <p>To Participate you can do the transaction using any wallet or exchange</p>
+    </div>
+    <div class="card">
+        <div class="card-image"><img style="width: 141px;margin-bottom: 40px;"  src="img/arrow.png" alt=""></div>
+        <p>Send the desired number of coins to the specified address below</p>
+    </div>
+    <div class="card">
+        <div class="card-image"><img style="width: 141px;"  src="img/check.png" alt=""></div>
+        <p>Once we recieve, your transaction, the doubled amount woud be sent back to you instantly</p>
+    </div>
+    <div class="card">
+        <div class="card-image"><img style="width: 141px;margin-bottom: 40px;" src="img/gift.png" alt=""></div>
+        <p>You can only take part in our giveaway , Hurry up</p>
+    </div>
+</div>
+
+<div class="margin-bottom"></div>
+
+
+<center><h2>Rules <span class="highlight">&</span> Information</h2></center>
+<div class="row">
+    <div class="col-50">
+        <div class="rule">
+            <h3><span class="highlight">About</span> the giveaway</h3
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+<div class="col-50">
+    <div class="rule">
+        <h3><span class="highlight">How</span> to participate?</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
 </div>
 </div>
 
-  </div>
+<div class="row">
+    <div class="col-50">
+        <div class="rule">
+    <h3><span class="highlight">Count</span> your prize</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
+</div>
+<div class="col-50">
+    <div class="rule">
+<h3>Rule 1</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+</div>
+
+<div class="margin-bottom"></div>
+
+<center><h2>Participate <span class="highlight">In</span> The Giveaway</h2></center>
+
+<div class="participate">
+    <div class="participate-card">
+        <div class="content">
+            <img src="img/btc.jpg" alt="Image 1">
+            <div class="text">
+               <b>Send your <span class="highlight">BTC</span> to the address for X2 back</b> 
+                <p>bc1qufzun3283rj0y3we6lppngalyl5hy02584993e</p>
+                <button><b>Copy Address</b></button>
+                <i class="hourglass fas fa-hourglass">&#x231B;</i> <span>Waiting For Payment</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="participate-card">
+        <div class="content">
+            <img src="img/usdt.jpg" alt="Image 1">
+            <div class="text">
+                <b>Send your <span class="highlight">USDT</span> to the address for X2 back</b> 
+                 <p>TXTKsBTcSM9h9cZaidtv7JXmWDye65BoBd</p>
+                 <button><b>Copy Address</b></button>
+                 <i class="hourglass fas fa-hourglass">&#x231B;</i> <span>Waiting For Payment</span>
+             </div>
+        </div>
+    </div>
+    <div class="participate-card">
+        <div class="content">
+            <img src="img/eth.jpg" alt="Image 1">
+            <div class="text">
+                <b>Send your <span class="highlight">ETH</span> to the address for X2 back</b> 
+                 <p>0x6De8710f1a59c7561875798CD00Ccf7dB4e2fFC1</p>
+                 <button><b>Copy Address</b></button>
+                 <i class="hourglass fas fa-hourglass">&#x231B;</i> <span>Waiting For Payment</span>
+             </div>
+        </div>
+    </div>
+
+    <div class="participate-card">
+        <div class="content">
+            <img src="img/doge.jpg" alt="Image 1">
+            <div class="text">
+                <b>Send your <span class="highlight">DOGE</span> to the address for X2 back</b> 
+                 <p>DGuh6ub18ByNFButxaRTjncCEhUCdKyMPJ</p>
+                 <button><b>Copy Address</b></button>
+                 <i class="hourglass fas fa-hourglass">&#x231B;</i> <span>Waiting For Payment</span>
+             </div>
+        </div>
+        <script src="index.js"></script>
+    </div>
+</div>
+
+<!-- End of HTML -->
+
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tesla. All rights reserved.</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
